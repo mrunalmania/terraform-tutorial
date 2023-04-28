@@ -1,0 +1,22 @@
+version: '3'
+
+services:
+  web:
+    build: .
+    ports:
+      - "5000:5000"
+    environment:
+      - FLASK_ENV=production
+      - PORT=5000
+      - MONGO_HOST=mongodb
+    depends_on:
+      - mongodb
+  mongodb:
+    image: mongo
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongodb:/data/db
+
+volumes:
+  mongodb:
