@@ -14,11 +14,13 @@ This repository contains my personal Terraform practice projects and notes. It's
 
 ## 📂 Repository Structure
 
-- `basics/`: Basic Terraform configurations and initial experiments.
-- `providers/`: Practice with different cloud providers (e.g., AWS, Azure, GCP).
-- `modules/`: My custom Terraform modules.
-- `state-management/`: Practice with Terraform state files and remote state.
-- `best-practices/`: Notes and examples following Terraform best practices.
+- `frontend/`: Contains the frontend code and assets for the project. Last updated last year.
+- `static/`: Includes static files used in the project. Last updated last year.
+- `Dockerfile`: The Dockerfile used to build the project’s Docker image. Last updated last year.
+- `README.md`: This file provides an overview and details of the repository. Last updated now.
+- `app.py`: The main application code written in Python. Last updated last year.
+- `docker-compose.yml`: Docker Compose configuration file to set up and run the application with multiple services. Last updated last year.
+- `requirements.txt`: A list of Python dependencies required for the project. Last updated last year.
 
 ## 🚀 Getting Started
 
